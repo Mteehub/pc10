@@ -1,0 +1,336 @@
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active1, .collapsible:hover {
+    background-color: rgb(42, 42, 42);
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #d3d3d3;
+  }
+
+
+
+
+.renta-1{margin-left:50px;}
+
+
+
+
+
+
+
+:root {
+
+    --bleu: rgb(54, 168, 225);
+
+}
+
+
+
+/*Global*/
+
+td{line-height: 16px;}
+
+
+.separation1{ background-color: var(--bleu);
+    height: 2px;
+    width: 100%;}
+
+/*
+
+
+
+*/
+
+
+.scrollbar {
+    margin-left: 30px;
+    float: left;
+    height: 300px;
+    width: 65px;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
+
+
+
+/*
+ *  STYLE 1
+ */
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #333;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 12px;
+    background-color: #333;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgb(102, 102, 102);
+}
+
+#style-1::-webkit-scrollbar-thumb:hover {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgb(165, 165, 165);
+}
+
+/*
+ *  btn back to top
+ */
+
+
+
+/*
+ *  btn back to top
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-toggler:focus,
+.btn-blue {
+    box-shadow: none;
+    border: var(--bleu) 1px solid;
+    padding: 10px 30px;
+}
+
+
+.btn-blue:hover {
+    transition: ease 1s;
+    box-shadow: none;
+    border: var(--bleu) 1px solid;
+    border-radius: 50px;
+    background-color: var(--bleu);
+
+}
+
+.containter-fluid {
+    padding: 0px;
+}
+
+
+.navbar-btn {
+    border: none
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 600;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.separation {
+    background-color: var(--bleu);
+    height: 2px;
+    width: 50px;
+}
+
+/*Global*/
+
+
+.jour {
+    font-size: small;
+    position: relative;
+    top: -15px;
+    left: 2px;
+}
+
+
+
+
+/*CARROUSEL*/
+
+
+
+
+.img-carrousel-1 {
+    background-image: url(../img/img-carrousel-1.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-carrousel-2 {
+    background-image: url(../img/img-carrousel-2.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-carrousel-3 {
+    background-image: url(..//img/img-1.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+/*CARROUSEL*/
+
+/*  STANDARD SILVER GOLD*/
+
+
+
+/*  STANDARD SILVER GOLD*/
+
+
+/*              Section name-1                 */
+
+.img-section-name {
+
+    height: 275px;
+    width: 275px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25%;
+}
+
+.img-1-section-name {
+    background-image: url(../img/cpu.jpg);
+}
+
+.img-2-section-name {
+    background-image: url(../img/gpu.jpg);
+}
+
+
+.zoom {
+    padding: 20px;
+    transition: transform .3s;
+    /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/*              Section name-1                 */
+
+
+/*  FOOTER   */
+footer a {
+    color: rgb(182, 182, 182)
+}
+
+footer a:hover {
+    color: var(--bleu)
+}
+
+.icone-footer {
+    color: white
+}
+
+.icone-footer a:hover {
+    color: var(--bleu);
+    cursor: pointer;
+}
+
+.taille {
+    font-size: 15px;
+}
+
+/*   FOOTER   */
+
+
+/*  img1-section-image  présentation product */
+
+
+.img3-section-image {
+    background-image: url(../img/manette.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.img2-section-image {
+    background-image: url(../img/souris.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.img1-section-image {
+    background-image: url(../img/manette-x-box.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+
+
+/*  img1-section-image  */
+
+
+.cpu-gpu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titre-premier {
+    font-size: 3rem;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+
+    .cpu-gpu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        margin-top: 5px;
+    }
+
+    .zoom{width: 125px;height: 125px;justify-content: space-around;}
+
+th{font-size: 0.8em;}
+
+
+}
